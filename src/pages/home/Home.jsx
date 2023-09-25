@@ -61,7 +61,7 @@ function Home() {
               <h2>Certificates</h2>
               <h3>
                 Wondering about your chances of acceptance? Predict your chance
-                of admission anytime.
+                of admission anytime. 
               </h3>
             </div>
           </div>
