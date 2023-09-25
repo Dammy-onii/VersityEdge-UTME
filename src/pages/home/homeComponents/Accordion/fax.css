@@ -1,0 +1,56 @@
+.Accordion{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border: none;
+}
+
+.accordionItem{
+    margin-bottom: 2vh;
+    border-radius: 8px;
+box-shadow: none;
+border: none;
+outline: none;
+border-radius: 8px;
+}
+
+#panel1bh-header,
+#panel2bh-header,
+#panel3bh-header,
+#panel4bh-header
+{
+    border-radius: 8px;
+background: #E7E8E9;
+margin: none;
+box-shadow: none;
+outline: none;
+border: none;
+}
+
+
+.typography > h2{
+    text-align: left;
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+font-weight: bolder;
+line-height: normal;
+}
+
+.itemDetails{
+    background: #FAFDFF;
+    box-shadow: none;
+}
+.itemText{
+    padding-top: 5px;
+    box-shadow: none;
+}
+.itemText > h3{
+    color: rgba(15, 15, 15, 0.60);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+}

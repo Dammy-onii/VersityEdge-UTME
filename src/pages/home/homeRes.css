@@ -2,6 +2,9 @@
     .description{
         width: 95%;
         margin-top: 10vh;
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
         flex-direction: column;
     }
     .backgroundText > h1{
@@ -12,6 +15,7 @@
         justify-content: center;
         text-align: center;
         margin-bottom: 5vh;
+        margin: 0 auto;
     }
     section > h2{
         font-size: 26px;
@@ -125,5 +129,32 @@
     }
     .sponsorUs > .description > .descriImg{
         width: 100%;
+    }
+
+    .suscribe{
+        width: 100%;
+    }
+    .suscribeText{
+        color: #6E7070;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-weight: lighter;
+    
+    outline: none;
+    border: none;
+    }
+    
+    .suscribeBtn{
+        padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #0A66C2;
+    color: #fff;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    cursor: pointer;
     }
 }

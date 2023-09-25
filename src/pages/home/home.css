@@ -1,3 +1,64 @@
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.bolder{
+    font-weight: bolder;
+}
+
+.description{
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+    position: relative;
+}
+
+.backgroundText{
+    position: absolute;
+    top: 20;
+    z-index: 0;
+}
+.backgroundText > h1{
+    font-size: 180px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.10);
+    text-stroke: px rgba(0, 0, 0, 0.10);;
+    color: white;
+
+}
+.descriText{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 45%;
+    justify-content: right;
+    z-index: 2;
+}
+section > h2{
+    font-size: 36px;
+}
+.descriText > h3{
+    font-size: 24px;
+    width: 90%;
+    margin-top: 2vh;
+}
+.descriImg{
+    width: 50%;
+    z-index: 2;
+}
+.descriImg > img{
+    width: 100%;
+    height: 100%;
+}
+
+.blue > h1{
+    color: #F8FBFF;
+    font-size: 350px;
+}
 
 
 .features{
@@ -153,35 +214,63 @@
 }
 
 
-
-.sponsorUs{
-    width: 90%;
-    height: fit-content;
-    margin: 0 auto;
+.newsletter{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 10vh;
-    position: relative;
+    margin: 0 auto;
+    background: #F8FBFF;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 }
-.sponsorUs > .description{
-    width: 100%;
+.newsCont{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.section > h2{
-    font-size: 36px;
+
+.suscribe{
+    width: 60%;
+    height: 100%;
+    padding: 19px 35px;
+    align-items: center;
+    border-radius: 40px;
+border: 1px solid var(--Primary-Black-7, #CDCDCE);
+background: #FFF;
+margin-top: 5%;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.suscribeText{
+    color: #6E7070;
+font-size: 20px;
 font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.sponsorUs > .description > .descriText{
-    width: 50%;
-    text-align: center;
-    align-items: center;
-}
-.sponsorUs > .description > .descriImg{
-    width: 45%;
+font-weight: 300;
+font-weight: lighter;
+
+outline: none;
+border: none;
 }
 
-
-
+.suscribeBtn{
+    padding: 12px 21px;
+justify-content: center;
+align-items: center;
+border-radius: 24px;
+background: #0A66C2;
+color: #fff;
+font-weight: bolder;
+outline: none;
+border: none;
+cursor: pointer;
+}

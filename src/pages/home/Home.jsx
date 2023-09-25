@@ -2,10 +2,14 @@ import React from "react";
 import Homeheader from "../../components/Homeheader";
 
 import homeImg from "../../assets/homeImg.png";
+
 import "./home.css";
 import "./homeRes.css";
+
 import Partners from "../../components/Partners";
 import HomeDescription from "./homeComponents/homeDescriptions/HomeDescription";
+import SponsorUs from "./homeComponents/SponsorUs";
+import Fax from "./homeComponents/Accordion/Fax";
 
 function Home() {
   return (
@@ -97,39 +101,35 @@ function Home() {
         </div>
       </div>
 
-      <Partners />
-      
 
-      <div className="sponsorUs">
-        <section className="sponsor">
-          <h2>Sponsor Us</h2>
+      <Partners />
+      <SponsorUs />
+
+    <div className="description">
+      <section>
+      <h2>Frequently Asked Questions</h2>
+      <h3>We want you to focus on your exam preparation. We've provided a list of questions other aspirants 
+        are asking or you may want to ask. Contact us if we're not able to answer what you have in mind.</h3>
+      </section>
+    </div>
+      
+    <Fax />
+
+    <div className="newsletter">
+      <div className="newsCont">
+        <section>
+        <h2>Subscribe to our Newsletter</h2>
+        <h3><span className="bolder">Stay Updated: </span> Sponsor US at  underturism vonanera för att terare, såsom tressade. Trer mandatpingis ning emedan homore, besade. 
+          Digital tvilling makrobasamma niledes huruvida nan. Jinar mikrotes 5:2-diet nor. Vaning derer, plakyplangar päbelt koling.  </h3>
         </section>
-        <div className="description">
-          <div className="backgroundText">
-            <h1>Sponsor Us</h1>
-          </div>
-          <div className="descriImg">
-            <img src={homeImg} alt="" />
-          </div>
-          <div className="descriText">
-            <h3>
-              Sponsor US at underturism vonanera för att terare, såsom tressade.
-              Trer mandatpingis ning emedan homore, besade. Digital tvilling
-              makrobasamma niledes huruvida nan. Jinar mikrotes 5:2-diet nor.
-              Vaning derer, plakyplangar päbelt koling. Mikrosade pekoledes,
-              jesk såsom digebel sonat. Predyra gupesam fotoception terajingar,
-              inte jedat. Trifili byrar geott i nevis. Mabebel jida intraspehet
-              tir. Vaning derer, plakyplangar päbelt koling. Mikrosade
-              pekoledes, jesk såsom digebel sonat. Predyra gupesam fotoception
-              terajingar, inte jedat. Trifili byrar geott i nevis. Mabebel jida
-              intraspehet tir.
-            </h3>
-            <div className="button">
-              <h3>Sponsor Us</h3>
-            </div>
-          </div>
+
+        <div className="suscribe">
+          <input type="email" name="" id="" placeholder="Versityedge@gmail.com" className="suscribeText"/>
+          <input type="button" value="Suscribe" className="suscribeBtn"/>
         </div>
       </div>
+    </div>
+      
     </div>
   );
 }
