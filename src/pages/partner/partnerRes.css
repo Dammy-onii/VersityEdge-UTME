@@ -1,0 +1,156 @@
+@media screen and (max-width: 1200px)  {
+    
+.partnerBanner{
+    width: 100%;
+    height: 100vh;
+}
+.partnerBanner > h1{
+    font-size: 96px;
+}
+
+.benefitCont{
+    width: 90%;
+    flex-direction: column;
+}
+.imgCont{
+    width: 100%;
+    height: 100%;
+}
+.imgCont > img{
+    width: 100%;
+height: 100%;
+flex-shrink: 0;
+}
+
+.textCont{
+    width: 100%;
+    margin-left: 0;
+}
+.textCont > h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 2vh;
+}
+.textCont > h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+.packageCont{
+    width: 90%;
+    height: 100%;
+}
+.packageCont > h1{
+    font-size: 48px;
+}
+.packageCont > h3{
+    font-size: 24px;
+    width: 100%;
+}
+.packCard{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.packageCard{
+margin-bottom: 10%;
+}
+
+.whyCont{
+    width: 90%;
+}
+.activity{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.activityCard{
+    margin-bottom: 5%;
+}
+
+.howCont{
+    width: 90%;
+    height: 100%;
+}
+.howCont > h2{
+    width: 90%;
+}
+
+.howProcess{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 10%;
+}
+.process{
+    width: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+
+.insightCont{
+    width: 90%;
+    height: 100%;
+}
+.explore{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.insightCard{
+    width: 100%;
+height: max-content;
+
+margin-bottom: 10%;
+}
+.insightImg{
+    width: 100%;
+    height: 55%;
+    background: #6BB4FF;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.insightText{
+    padding-top: 5%;
+    height: 35%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 5%;
+}
+.insightText > h2{
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.insightText > h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.insightButton{
+    display: inline-flex;
+padding: 11px 48px;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+border: 1px solid #0A66C2;
+background:  #0A66C2;
+margin:  0 auto;
+margin-top: 5%;
+}
+.insightButton > h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}
+}

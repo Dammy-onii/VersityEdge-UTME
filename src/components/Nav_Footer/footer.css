@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+    background: #46A2FE;
+    margin-top: 5vh;
+}
+.footerCont{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lText{
+    display: flex;
+    flex-direction: column;
+}
+
+.lText > h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.lText > h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footerText > h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.footerSocials > h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px)  {
+    .footerCont{
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+    }
+}

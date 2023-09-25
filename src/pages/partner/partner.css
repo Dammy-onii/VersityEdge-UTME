@@ -1,0 +1,389 @@
+
+.partner{
+    width: 100%;
+}
+.partnerBanner{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.partnerBanner > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index:-1;
+}
+.partnerBanner > h1{
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.benefit{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+.benefitCont{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgCont{
+    width: 40%;
+    height: 100%;
+}
+.imgCont > img{
+    width: 484px;
+height: 425px;
+flex-shrink: 0;
+border-radius: 20px;
+/* box-shadow: -8px 8px 4px 0px #FFDF75; */
+}
+
+.textCont{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+}
+.textCont > h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+.textCont > h3{
+    text-align: left;
+    font-size: 24px;
+}
+
+.package{
+    width: 100%;
+    height: 100%;
+    background: #F8FBFF;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.packageCont{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.packageCont > h1{
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+.packageCont > h3{
+    font-size: 24px;
+    width: 60%;
+    text-align: center;
+}
+.packCard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.packageCard{
+    width: 178px;
+    height: 200px;
+    display: inline-flex;
+    padding: 10px 4px 10px 8px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid #E7E8E9;
+
+    position: relative;
+}
+.basic{
+    background:  #0A66C2;
+    color: #fff;
+}
+.premium{
+    background: #8E592F;
+    color: #fff;
+}
+.silver{
+    background: #DCDCDC;
+    color: #000;
+}
+.gold{
+    background: #FBE21D;
+    color: #000;
+}
+.packageType{
+    display: flex;
+width: 55%;
+height: 50%;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+position: absolute;
+top: -20%;
+}
+
+.packageText{
+    width: 100%;
+    height: 60%;
+    display: flexs;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.packageText > h2{
+    font-size: 20px;
+}
+.packageText > h3{
+    font-size: 16px;
+    font-weight: 300;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.why{
+    width: 100%;
+    height: 100%;
+    padding-top: 5vh;
+    background: #CDCDCD;
+}
+.whyCont{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.whyCont > h1{
+    margin: 0 auto;
+    text-align: center;
+}
+.activity{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+    padding-bottom: 5vh;
+}
+.activityCard{
+    width: 380px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #CDCDCD;
+    background: #FFF;
+    box-shadow: 0px 40px 80px 0px rgba(176, 176, 176, 0.25);
+    
+    display: flex;
+    flex-direction: column;
+}
+.activityImg{
+    width: 100%;
+    height: 55%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.activityImg > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.activityText{
+    padding-top: 5%;
+    height: 35%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+.activityText > h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5%;
+    text-align: center;
+    margin: 0 auto;
+}
+.activityText > h3{
+    font-size: 16px;
+}
+
+.how{
+    width: 100%;
+    height: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 10vh;
+}
+.howCont{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.howCont > h1{
+    margin-bottom: 2vh;
+}
+.howCont > h2{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.howProcess{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.process{
+    width: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.processImg{
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+background: #6BB4FF;
+margin-bottom: 10%;
+}
+.processText{
+    text-align: center;
+}
+.processText > h3{
+    text-align: center;
+    margin-top: 2%;
+}
+.howButton{
+    display: flex;
+width: 180px;
+padding: 10px 16px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background:  #0A66C2;
+margin: 0 auto;
+color: #fff;
+}
+
+.insight{
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.insightCont{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.explore{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+.insightCard{
+    width: 380px;
+height: max-content;
+flex-shrink: 0;
+border-radius: 24px;
+border: 1px solid #CDCDCD;
+background: #FFF;
+box-shadow: 0px 40px 80px 0px rgba(176, 176, 176, 0.25);
+
+display: flex;
+flex-direction: column;
+}
+.insightImg{
+    width: 100%;
+    height: 280px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.insightImg > img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.insightText{
+    padding-top: 5%;
+    height: 35%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 5%;
+}
+.insightText > h2{
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.insightText > h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.insightButton{
+    display: inline-flex;
+padding: 11px 48px;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+border: 1px solid #0A66C2;
+background:  #0A66C2;
+margin:  0 auto;
+margin-top: 5%;
+}
+.insightButton > h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+}

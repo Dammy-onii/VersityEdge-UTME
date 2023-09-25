@@ -1,0 +1,47 @@
+.patners{
+    word-wrap: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background: #F8FBFF;
+}
+.patners > h2{
+    font-size: 36px;
+    margin-bottom: 5%;
+}
+.patnerImages{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.patnerExample{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #cdcdcd;
+}
+
+@media screen and (max-width: 900px)  {
+    .patners{
+        word-wrap: 100%;
+        height: 100%;
+    }
+    .patners > h2{
+        font-size: 26px;
+        margin-bottom: 5%;
+    }
+    .patnerImages{
+        width: 70%;
+        flex-wrap: wrap;
+    }
+    .patnerExample{
+        width: 120px;
+        height: 120px;
+        margin-top: 5%;
+    }
+}

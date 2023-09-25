@@ -1,0 +1,187 @@
+
+
+.features{
+    width: 100%;
+    height: 70vh;
+    background: #F8FBFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5vh;
+}
+.featuresText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 2;
+}
+.featuresText > h2{
+    font-size: 36px;
+}
+.featuresText > h3{
+    font-size: 20px;
+    width: 70%;
+    font-weight: 500;
+}
+
+.featureList{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    margin-top: 8%;
+}
+.featureExample{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    justify-content: space-evenly;
+}
+.featureIcon{
+    width: 64px;
+    height: 64px;
+    background: aqua;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+.featureText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featureText > h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.featureText > h3{
+    font-size: 15px;
+    font-weight: 300;
+    width: 70%;
+}
+.exampleMargin{
+    margin-top: -10vh;
+}
+
+.testimonials{
+    width: 80%;
+    height: 90vh;
+    margin-top: 5vh;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.testimonials > h2{
+    font-size: 36px;
+    margin-bottom: 5%;
+}
+.testimonialElements{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+.arrowCircle{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 57px;
+    border: 1px solid #CDCDCE;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(180, 180, 180, 0.25);
+    margin-left: 20px;
+    cursor: pointer;
+}
+.arrowCircle > span{
+    font-size: 32px;
+    color: #333434;
+    font-weight: bold;
+}
+.arrowCircle > .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 1,
+    'opsz' 48
+  }
+
+.testimonialImage{
+    width: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.testimonialText{
+    width: 50%;
+    height: 60%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.testimonialText > h2{
+    font-size: 26px;
+    font-weight: 500;
+    font-weight: bolder;
+}
+.testimonialText > h3{
+    font-size: 20px;
+    margin-top: 5%;
+    width: 100%;
+    font-weight: 300;
+}
+
+
+
+.sponsorUs{
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+    position: relative;
+}
+.sponsorUs > .description{
+    width: 100%;
+}
+.section > h2{
+    font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sponsorUs > .description > .descriText{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+.sponsorUs > .description > .descriImg{
+    width: 45%;
+}
+
+
+

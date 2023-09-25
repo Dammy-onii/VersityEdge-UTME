@@ -1,0 +1,129 @@
+@media screen and (max-width: 900px)  {
+    .description{
+        width: 95%;
+        margin-top: 10vh;
+        flex-direction: column;
+    }
+    .backgroundText > h1{
+        font-size: 60px;
+    }
+    .descriText{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    section > h2{
+        font-size: 26px;
+    }
+    .descriText > h3{
+        font-size: 24px;
+        width: 100%;
+        margin-top: 2vh;
+    }
+    .descriImg{
+        width: 100%;
+        z-index: 2;
+        margin-bottom: 5%;
+    }
+    .button{
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .blue > h1{
+        font-size: 150px;
+    }
+    
+    .features{
+        width: 100%;
+        height: 100%;
+        margin-top: 5vh;
+    }
+    .featuresText > h2{
+        font-size: 26px;
+    }
+    .featuresText > h3{
+        font-size: 18px;
+        width: 90%;
+    }
+    
+    .featureList{
+        width: 90%;
+        flex-wrap: wrap;
+        margin-top: 8%;
+    }
+    .featureExample{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    .featureText > h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .featureText > h3{
+        font-size: 15px;
+        font-weight: 300;
+        width: 70%;
+    }
+    .exampleMargin{
+        margin-top: 0vh;
+    }
+
+    .testimonials{
+        width: 90%;
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+    .testimonials > h2{
+        font-size: 36px;
+        margin-bottom: 5%;
+    }
+    .testimonialElements{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding-bottom: 10vh;
+    }
+    
+    .arrow{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        align-items: end;
+        justify-content: center;
+    }
+    
+    .testimonialImage{
+        width: 100%;
+        height: 30vh;
+    }
+    .testimonialText{
+        width: 100%;
+        height: 100%;
+    }
+    .testimonialText > h2{
+        font-size: 26px;
+    }
+    .testimonialText > h3{
+        font-size: 18px;
+    }
+    
+    .sponsorUs{
+        width: 90%;
+    }
+    .sponsorUs > .description > .descriText{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .sponsorUs > .description > .descriImg{
+        width: 100%;
+    }
+}

@@ -1,0 +1,201 @@
+.scholarship{
+    width: 100%;
+    height: 100%;
+}
+.scholHeader{
+    width: 100%;
+    height: 70vh;
+    padding-top: 10vh;
+}
+.scholHeaderCont{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerImg{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headerImgCont{
+    width: 465px;
+height: 464px;
+position: relative;
+border-radius: 100%;
+border: 1px solid #46A2FE;
+}
+.headerImgCont > img{
+    width: 465px;
+height: 464px;
+position: absolute;
+top: 10%;
+left: 10%;
+border-radius: 100%;
+background: #0A66C2;
+}
+.headerText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-left: 5%;
+}
+.headerText > h1{
+    color: #000;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.headerText > h2{
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.eligibility{
+    width: 100%;
+    height: 70vh;
+    background: #F8FBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    margin-top: 10vh;
+}
+.eligi > h1{
+    font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+.eligi > h2{
+    font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 2vh;
+width: 70%;
+text-align: center;
+margin: 0 auto;
+}
+.requirementSection{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.requirementText{
+    width: 70%;
+}
+.requirementText > li{
+    font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 2%;
+}
+.requirementImg{
+    width: 25%;
+}
+.requirementImg > img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px)  {
+    .scholHeader{
+        width: 100%;
+        height: 100%;
+        padding-top: 10vh;
+    }
+    .scholHeaderCont{
+        width: 90%;
+        flex-direction: column;
+    }
+    .headerImg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .headerImgCont{
+        width: 325px;
+    height: 324px;
+    position: relative;
+    border-radius: 100%;
+    border: 1px solid #46A2FE;
+    }
+    .headerImgCont > img{
+        width: 325px;
+    height: 324px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 100%;
+    background: #0A66C2;
+    }
+    .headerText{
+        width: 90%;
+        padding-left: 0;
+        margin-top: 5vh;
+    }
+    .headerText > h1{
+        color: #000;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .headerText > h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    }
+    .eligibility{
+        width: 100%;
+        height: 100%;
+        background: #F8FBFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5vh;
+        margin-top: 10vh;
+    }
+    .requirementSection{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .requirementText{
+        width: 100%;
+    }
+    .requirementText > li{
+        font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 2%;
+    }
+    .requirementImg{
+        width: 90%;
+    }
+    .requirementImg > img{
+        width: 100%;
+    }
+}
