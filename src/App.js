@@ -5,6 +5,7 @@ import Nav from './components/Nav_Footer/Nav';
 import PartnerWith from './pages/partner/PartnerWith';
 import Footer from './components/Nav_Footer/Footer';
 import Scholarship from './pages/scholarship/Scholarship';
+import AboutUs from './pages/about/AboutUs';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/'>
             <Route index element={ <Home /> }></Route>
             <Route path="PartnerWith" element={ <PartnerWith /> }></Route>
+            <Route path="About" element={ <AboutUs /> }></Route>
             <Route path="Scholarship" element={ <Scholarship /> }></Route>
           </Route>
         </Routes>
