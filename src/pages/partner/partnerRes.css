@@ -153,4 +153,12 @@ margin-top: 5%;
     font-weight: 300;
     color: #fff;
 }
+
+.premium{
+    margin-top: 0;
+}
+.gold{
+    margin-top: 0;
+}
+
 }

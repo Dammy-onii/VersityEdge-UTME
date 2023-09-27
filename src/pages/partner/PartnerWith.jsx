@@ -16,6 +16,10 @@ import insight from "../../assets/insights.png"
 import insight2 from "../../assets/insight2.png"
 import insight3 from "../../assets/insight3.png"
 
+import worldclass from "../../assets/worldclass.png"
+import networking from "../../assets/networking.png"
+import modernvenue from "../../assets/modernvenue.png"
+
 import './partner.css';
 import './partnerRes.css';
 import Partners from '../../components/Partners'
@@ -147,25 +151,34 @@ Tidade homogisk, och metrofili och pöpygt, liksom </h3>
                 <h2>Follow this steps to get VersityEdge Partnership and have access to more on our page</h2>
                 <div className="howProcess">
                     <div className="process">
-                        <div className="processImg"></div>
+                        <div className="processImg">
+                            <img src={worldclass} alt="" />
+                        </div>
                         <div className="processText">
-                            <h2>1. World className speakers</h2>
+                            <h2>1</h2>
+                            <h2>World className speakers</h2>
                             <h3>Our solution is tailored to help you achieve your goals</h3>
                         </div>
                     </div>
                     <div className="process">
-                        <div className="processImg"></div>
+                        <div className="processImg">
+                            <img src={networking} alt="" />
+                        </div>
                         <div className="processText">
+                            <h2>2</h2>
                             <h2>Networking</h2>
-                            <h3>2. Access a wide range of study materials,
+                            <h3>Access a wide range of study materials,
                                 mock exams, and interactive content to 
                                master subjects effectively.</h3>
                         </div>
                     </div>
                     <div className="process">
-                        <div className="processImg"></div>
+                        <div className="processImg">
+                            <img src={modernvenue} alt="" />
+                        </div>
                         <div className="processText">
-                            <h2>3. Modern venue</h2>
+                            <h2>3</h2>
+                            <h2>Modern venue</h2>
                             <h3>We know that the admission journey can be overwhelming, and doubts can creep in at any hour. </h3>
                         </div>
                     </div>

@@ -1,0 +1,80 @@
+.carousel{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.arrow{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+.speakersArrow{
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+.arrowCircle{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 57px;
+    border: 1px solid #CDCDCE;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(180, 180, 180, 0.25);
+    margin-left: 20px;
+    cursor: pointer;
+}
+.arrowCircle > span{
+    font-size: 32px;
+    color: #333434;
+    font-weight: bold;
+    z-index: 99;
+}
+.arrowCircle > .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 1,
+    'opsz' 48
+  }
+
+  .indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+
+  }
+  .indicators > span {
+    width: 23px;
+    height: 10px;
+    border-radius: 71px;
+background: #CDCDCE;
+      margin: 0 5px;
+      cursor: pointer;
+      transition: background-color 0.5s ease;
+  }
+  .indicators > span.active {
+    width: 106px;
+    height: 10px;
+    border-radius: 16px;
+background: #4C4E4E;
+      }

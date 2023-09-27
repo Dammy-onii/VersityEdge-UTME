@@ -5,7 +5,7 @@ import '../components/homeHeader.css'
 
 function Homeheader() {
 
-    const targetDate = new Date('2023-11-14T23:59:59').getTime(); // Replace with your target date
+    const targetDate = new Date('2024-01-14T23:59:59').getTime(); // Replace with your target date
 
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 

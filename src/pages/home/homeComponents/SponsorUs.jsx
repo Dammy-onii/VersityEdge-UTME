@@ -2,7 +2,7 @@ import React from 'react'
 
 import "./sponsor.css"
 
-import homeImg from "./../../../assets/homeImg.png";
+import PartnerWithUs from "./../../../assets/Partner with Us Pic.png";
 
 function SponsorUs() {
   return (
@@ -15,9 +15,7 @@ function SponsorUs() {
             <h1>Sponsor Us</h1>
           </div>
           <div className="sponsorImg">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src={PartnerWithUs} alt="" />
           </div>
           <div className="descriText">
             <h3>

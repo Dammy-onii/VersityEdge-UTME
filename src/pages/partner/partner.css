@@ -128,6 +128,7 @@ font-weight: 700;
 .premium{
     background: #8E592F;
     color: #fff;
+    margin-top: -5%;
 }
 .silver{
     background: #DCDCDC;
@@ -136,6 +137,7 @@ font-weight: 700;
 .gold{
     background: #FBE21D;
     color: #000;
+    margin-top: -5%;
 }
 .packageType{
     display: flex;
@@ -280,8 +282,7 @@ top: -20%;
     width: 64px;
     height: 64px;
     border-radius: 50px;
-background: #6BB4FF;
-margin-bottom: 10%;
+margin-bottom: 5%;
 }
 .processText{
     text-align: center;

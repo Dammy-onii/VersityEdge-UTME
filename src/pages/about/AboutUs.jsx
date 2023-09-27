@@ -9,7 +9,6 @@ function AboutUs() {
   return (
     <div>
         <Homeheader />
-
         <div className="videoDescription">
             <div className="videoText">
                 <div className="videoTextContainer">
