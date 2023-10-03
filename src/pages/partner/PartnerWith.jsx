@@ -23,6 +23,7 @@ import modernvenue from "../../assets/modernvenue.png"
 import './partner.css';
 import './partnerRes.css';
 import Partners from '../../components/Partners'
+import WhyComponent from '../home/homeComponents/whyComponent/WhyComponent';
 
 function PartnerWith() {
   return (
@@ -187,7 +188,11 @@ Tidade homogisk, och metrofili och pöpygt, liksom </h3>
             </div>
         </div>
 
-        <Partners />
+        <div className="features">
+        
+      <WhyComponent />
+         
+      </div>
 
         <div className="insight">
             <div className="insightCont">

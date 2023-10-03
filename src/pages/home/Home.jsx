@@ -13,6 +13,8 @@ import HomeDescription from "./homeComponents/homeDescriptions/HomeDescription";
 import SponsorUs from "./homeComponents/SponsorUs";
 import Fax from "./homeComponents/Accordion/Fax";
 import Speaker from "./homeComponents/OurSpeakers/Speaker";
+import WhyComponent from "./homeComponents/whyComponent/WhyComponent";
+import PartnersComp from "./homeComponents/Partners/PartnersComp";
 
 function Home() {
   const carouselItems = [
@@ -58,65 +60,19 @@ function Home() {
       <HomeDescription />
 
       <div className="features">
-        <div className="backgroundText blue">
-          <h1>Features</h1>
-        </div>
-        <div className="featuresText">
-          <h2>Features</h2>
-          <h3>
-            Are you tired of feeling lost in the complex admission process?
-            VersityEdge is your ultimate solution to overcome challenges and
-            unlock a world of opportunities
-          </h3>
-        </div>
-        <div className="featureList">
-          <div className="featureExample">
-            <div className="featureIcon"></div>
-            <div className="featureText">
-              <h2>World class speakers</h2>
-              <h3>Our solution is tailored to help you achieve your goals</h3>
-            </div>
-          </div>
-          <div className="featureExample exampleMargin">
-            <div className="featureIcon"></div>
-            <div className="featureText">
-              <h2>Networking</h2>
-              <h3>
-                Access a wide range of study materials, mock exams, and
-                interactive content to master subjects effectively.
-              </h3>
-            </div>
-          </div>
-          <div className="featureExample">
-            <div className="featureIcon"></div>
-            <div className="featureText">
-              <h2>Modern Venue</h2>
-              <h3>
-                We know that the admission journey can be overwhelming, and
-                doubts can creep in at any hour. With VersityEdge's 24/7
-                support, you'll never feel alone.
-              </h3>
-            </div>
-          </div>
-          <div className="featureExample exampleMargin">
-            <div className="featureIcon"></div>
-            <div className="featureText">
-              <h2>Certificates</h2>
-              <h3>
-                Wondering about your chances of acceptance? Predict your chance
-                of admission anytime.
-              </h3>
-            </div>
-          </div>
-        </div>
+        
+      <WhyComponent />
+         
       </div>
+
+      
 
       <div className="testimonials">
         <h2>Testimonials</h2>
         <Carousel items={carouselItems} />
       </div>
 
-      <Partners />
+      <PartnersComp />
 
       <Speaker />
 
