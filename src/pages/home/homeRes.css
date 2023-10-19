@@ -132,11 +132,11 @@
     }
 
     .suscribe{
-        width: 100%;
+        width: max-content;
     }
     .suscribeText{
         color: #6E7070;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     font-weight: lighter;
@@ -146,10 +146,11 @@
     }
     
     .suscribeBtn{
-        padding: 6px 10px;
+        width: max-content;
+        padding: 8px 10px;
     justify-content: center;
     align-items: center;
-    border-radius: 24px;
+    border-radius: 14px;
     background: #0A66C2;
     color: #fff;
     font-weight: bolder;

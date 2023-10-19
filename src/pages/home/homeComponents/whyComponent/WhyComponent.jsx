@@ -50,17 +50,16 @@ export default function WhyComponent() {
     <section className=" bg-[#F8FBFF] py-[3rem]">
       <article className=" generalPadding flex flex-col items-center justify-center gap-[3rem] mobile:gap-[6rem] mobile:py-4 md:py-7">
         <div className=" flex flex-col items-center justify-center gap-[1rem]">
-          <h1 className=" responsiveHeader font-extrabold">
-            Why Choose VersityEdge?
+          <h1 className="text-3xl responsiveHeader font-extrabold">
+          Features
           </h1>
-          <p className="responsiveText text-center ">
-            Are you tired of feeling lost in the complex admission process?
-            VersityEdge is your ultimate solution to overcome challenges and
-            unlock a world of opportunities
+          <p className="text-xl responsiveText text-center ">
+          Are you tired of feeling lost in the complex admission process? VersityEdge is your ultimate solution to
+overcome challenges and unlock a world of opportunities
           </p>
         </div>
 
-        <ul className="flex flex-row flex-wrap cards relative h-fit w-full place-items-center items-center justify-center gap-x-[2rem] gap-y-[2rem] smobile:gap-x-[2rem] mobile:flex mobile:gap-[2rem] md:gap-[3.5rem]">
+        <ul className="cards relative flex h-fit w-full place-items-center items-center justify-center gap-x-[2rem] gap-y-[2rem] smobile:gap-x-[2rem] mobile:flex mobile:gap-[2rem] md:gap-[3.5rem]">
           {Array.from({ length: text.length }, (_, i) => i + 1).map((num) => (
             // Cards
             <Hug
@@ -91,7 +90,7 @@ export default function WhyComponent() {
             src={LINE6}
             alt="connection"
           />
-        </ul>
+        </ul>
       </article>
     </section>
   );

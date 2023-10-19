@@ -8,7 +8,7 @@ function HomeDescription() {
     <div>
         <div className="description">
         <div className="backgroundText">
-          <h1 >UTME AT A GO</h1>
+          <h1>UTME AT A GO</h1>
         </div>
         <div className="descriText">
           <section>

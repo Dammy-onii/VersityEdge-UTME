@@ -37,7 +37,7 @@ function Speaker() {
 
   return (
     <div className="testimonials">
-        <div className="backgroundText">
+        <div className="backgroundText speakText">
           <h1>The Speakers</h1>
         </div>
       <h2>The Speakers</h2>

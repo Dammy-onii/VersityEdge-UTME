@@ -15,7 +15,7 @@ function Fax() {
   };
 
   return (
-    <div className="Accordion">
+    <div className="Accordion content-center">
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}

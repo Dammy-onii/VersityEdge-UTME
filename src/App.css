@@ -39,8 +39,11 @@
 
 @media screen and (max-width: 900px)  {
   .description{
-      width: 95%;
+      width: 100%;
       margin-top: 10vh;
       flex-direction: column;
+  }
+  body{
+    overflow-x: hidden;
   }
 }

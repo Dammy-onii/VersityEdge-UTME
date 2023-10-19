@@ -13,6 +13,7 @@ li > h3{
     list-style: none;
     text-decoration: none;
     font-weight: 700;
+    margin-left: 10px;
 }
 li > h3:hover{
     color: #0A66C2;
@@ -26,30 +27,114 @@ li > h3:hover{
     z-index: 99;
 }
 .navContainer{
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-}
-.navLinks{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 50%;
-    margin: 0 auto;
+    position: relative;
 }
 
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 1200px)  {
     li > h3{
         color: #000;
-        font-size: 12px;
+        font-size: 18px;
+    }
+    .menu > li{
+        border-bottom: 1px solid #00000035;
     }
     .navLinks{
         width: 100%;
         flex-wrap: wrap;
     }
 }
+
+
+
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+
+  
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .logo > img{
+    width: 90%;
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 1rem;
+  }
+  
+  /* Hamburger icon styling */
+  .hamburger {
+    display: none; /* Hide by default on larger screens */
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 2px 0;
+    transition: 0.4s;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    
+    .navContainer{
+        justify-content: space-between;
+    }
+    .logo > img{
+        width: 60%;
+        box-sizing: border-box;
+      }
+    .menu {
+      display: none; /* Hide the menu on smaller screens */
+      flex-direction: column;
+      position: absolute;
+      top: 70px; /* Adjust the top position as needed */
+      left: 0;
+      background-color: #a3a7ac50;
+      width: 100%;
+      padding: 1.2rem;
+      text-align: center;
+    }
+  
+    .menu.open {
+      display: flex; /* Show the menu when open */
+    }
+  
+    .hamburger {
+      display: flex; /* Show the hamburger icon on smaller screens */
+    }
+  
+    /* Style changes for the hamburger icon when the menu is open */
+    .hamburger.open .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .hamburger.open .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.open .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  }

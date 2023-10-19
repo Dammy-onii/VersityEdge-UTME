@@ -43,7 +43,7 @@ h3{
 }
 
 .button{
-  width: 100px;
+  width: fit-content;
   display: inline-flex;
   padding: 16px 24px;
   justify-content: center;

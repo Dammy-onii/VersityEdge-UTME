@@ -45,7 +45,13 @@ font-weight: 500;
     margin-top: 10%;
 }
 
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 1200px)  {
+    .speakText{
+        margin-top: 10%;
+    }
+    .speakText> h1{
+        font-size: 100px;
+    }
     .speakers{
         width: 90vw;
         height: 100%;

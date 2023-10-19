@@ -16,7 +16,7 @@
     z-index: 0;
 }
 .backgroundText > h1{
-    font-size: 180px;
+    font-size: 200px;
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.10);
     text-stroke: px rgba(0, 0, 0, 0.10);;
     color: white;
@@ -29,9 +29,11 @@
     width: 45%;
     justify-content: right;
     z-index: 2;
+    text-align: center;
 }
 section > h2{
     font-size: 36px;
+    text-align: left;
 }
 .descriText > h3{
     font-size: 24px;
@@ -54,44 +56,56 @@ section > h2{
 
 @media screen and (max-width: 900px)  {
     .description{
-        width: 95%;
+        width: 100vw;
+        height: 100%;
         margin-top: 10vh;
         display: flex;
-        height: 100%;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .backgroundText > h1{
-        font-size: 60px;
+        font-size: 80px;
     }
     .descriText{
-        width: 100%;
+        width: 98vw;
+        align-items: center;
         justify-content: center;
         text-align: center;
-        margin-bottom: 5vh;
-        margin-left: 5%;
+        margin-bottom: 10vh;
+        margin: 0 auto;
+    }
+    section{
+        text-align: center;
+        margin: 0 auto;
     }
     section > h2{
         font-size: 26px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
+        align-self: center;
+        justify-self: center;
     }
     .descriText > h3{
         font-size: 24px;
-        width: 100%;
         margin-top: 2vh;
+        text-align: center;
+        margin: 0 aut0;
+        width: 100%;
+        margin-left: 0%;
     }
     .descriImg{
-        width: 100%;
+        width: 90%;
         z-index: 2;
         margin-bottom: 5%;
+        margin-left: 0%;
     }
     .button{
         margin: 0 auto;
         margin-top: 5%;
+        margin-bottom: 5%;
     }
     .reverse{
         flex-direction: column-reverse;
@@ -103,5 +117,6 @@ section > h2{
         font-size: 18px;
         width: 90%;
         margin-top: 2vh;
+        margin-left: 0;
     }
 }
