@@ -46,7 +46,7 @@ function Nav() {
               </li>
             </NavLink>
 
-            <NavLink to="/">
+            <NavLink to="/ContactUs">
               <li>
                 <h3>Contact Us</h3>
               </li>
